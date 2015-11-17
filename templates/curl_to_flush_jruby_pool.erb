@@ -1,0 +1,1 @@
+curl -X DELETE --cacert /etc/puppetlabs/puppet/ssl/certs/ca.pem --cert /etc/puppetlabs/puppet/ssl/certs/<%= @clientcert %>.pem --key /etc/puppetlabs/puppet/ssl/private_keys/<%= @clientcert %>.pem https://<%= @fqdn %>:8140/puppet-admin-api/v1/jruby-pool
