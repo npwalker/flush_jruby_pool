@@ -8,7 +8,7 @@ puppet_enterprise::master::puppetserver::puppet_admin_certs:
   - "%{::clientcert}"
 ```
 
-This hiera key will allow the certificate on each compile master to access it's own admin API where as by default only the pe-internal-dashboard cert can access. 
+This hiera key will allow the certificate on each compile master to access it's own admin API where as by default only the pe-internal-classifier cert can access. 
 
 # To Use This Module
 
